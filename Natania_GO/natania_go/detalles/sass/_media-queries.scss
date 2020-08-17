@@ -1,0 +1,17 @@
+ @media screen and (max-width: 380px){
+   .three{
+     .segundo{
+       height: 150px;
+     }
+     .tercero{
+       .carousel-indicators{
+         width: 100%;
+         left: 40%;
+         bottom: -30px;
+       }
+       .item {
+         height: 240px;
+       }
+     }
+   }
+ }

@@ -1,0 +1,255 @@
+body{
+  font-family: 'Roboto';
+}
+.heider{
+  height: 130px;
+  .container{
+    img{
+      margin-top: 0px;
+      width: 200px;
+      height: 83px;
+      display: block;
+    }
+
+    span{
+      display: inline-block;
+      font-size: 34px;
+      vertical-align: sub;
+      color: $grisoscuro;
+    }
+    h2{
+      display: inline-block;
+      margin-left: 5px;
+      font-family: 'Mosk300';
+      font-size: 25px;
+      margin-top: 10px;
+      color: $grisoscuro;
+    }
+  }
+}
+
+.one{
+  .gris{
+    width: 100%;
+    height: 320px;
+    background-color: $fondoplanes;
+    border-radius: 4px;
+    p{
+      margin: -5px 0 0 0;
+      font-size: 23px;
+      color: $grisoscuro;
+    }
+    h6{
+      margin: 0 0 0 50px;
+      font-size: 28px;
+      font-family: 'Mosk300';
+      padding-top: 25px;
+      color: $grisoscuro;
+    }
+  }
+  img{
+    margin-top: -50%;
+    width: 100%;
+    height: 300px;
+    color: $grisclaro2;
+  }
+  .precio{
+    text-align: center;
+    border-bottom: 2px solid $grisclaro;
+    p{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 20px;
+      margin-right: 8px;
+      color: $red;
+    }
+    h2{
+      font-size: 28px;
+      display: inline-block;
+      color: $red;
+    }
+  }
+}
+
+.two{
+  min-height: 500px;
+  margin-top: 30px;
+  .container2{
+    width: 100%;
+        border-bottom: 2px solid $grisclaro;
+  }
+  h5{
+    color: $grisoscuro;
+    font-family: 'Mosk300';
+    font-size: 32px;
+    line-height: 1.7;
+  }
+  .row{
+    img{
+      width: 100%;
+      height: 120px;
+    }
+    h1{
+      text-align: center;
+      font-size: 17px;
+      font-family: 'Mosk300';
+      color: $grisoscuro;
+    }
+  }
+  .mover{
+    margin-top: 22px;
+    margin-bottom: 30px;
+  }
+}
+.three{
+  margin-top: 30px;
+  min-height: 500px;
+  margin-bottom: 75px;
+  color: $grisoscuro;
+  h4{
+    font-size: 34px;
+    line-height: 1.6;
+    font-family: 'Mosk300';
+  }
+  .flecha{
+    width: 95%;
+    img{
+      display: inline-block;
+      width: 100%;
+      height: 750px;
+    }
+  }
+  .primero{
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    p{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+    }
+    h4{
+      font-size: 23px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto';
+    }
+    h5{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+    }
+  }
+  .segundo{
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+    p{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+    }
+    h4{
+      font-size: 23px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto';
+    }
+    h5{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+      a{
+        color: $red;
+      }
+    }
+  }
+  .tercero{
+    height: 320px;
+    margin-top: 20px;
+    .carousel-indicators .active {
+        width: 40px;
+        height: 7px;
+        margin: 0;
+        background-color: $red;
+    }
+    .carousel-indicators {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        z-index: 15;
+        padding-left: 0;
+        margin-left: -30%;
+        text-align: center;
+        list-style: none;
+    }
+    .carousel-indicators li {
+        display: inline-block;
+        width: 40px;
+        height: 6px;
+        margin: 1px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: $grisclaro;
+        border-radius: 10px;
+    }
+    .item{
+      height: 260px;
+      .caru-img{
+        height: 100%;
+        width: 100%;
+        img{
+          width: 90%;
+          height: 85%;
+        }
+      }
+    }
+  }
+  .cuarto{
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    p{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+    }
+    h4{
+      font-size: 21px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto';
+    }
+    h5{
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300';
+    }
+  }
+}
+#formu{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  font-family: 'Mosk300';
+  background-color: $red;
+  font-size: 24px;
+  text-align: center;
+  border: 0;
+  color: white;
+}
+// ksndflksndlgkljsdlkjg formulario kjansfkjlaskljfkasl
+
+.displaynone{
+  display: none;
+}

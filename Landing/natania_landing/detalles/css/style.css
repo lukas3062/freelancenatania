@@ -1,0 +1,242 @@
+/* CSS Document  */
+/* Project name: Pagina de prueba */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: Julio de 2016 */
+/* Author: Kucas Castillo */
+/* Author's eMail: Castillo.3062@gmail.com*/
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+body {
+  font-family: "Roboto Slab";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important; }
+
+body {
+  font-family: 'Roboto'; }
+
+.heider {
+  height: 130px; }
+  .heider .container img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 42px;
+    display: block; }
+  .heider .container span {
+    display: inline-block;
+    font-size: 34px;
+    vertical-align: sub;
+    color: #3c3c3c; }
+  .heider .container h2 {
+    display: inline-block;
+    margin-left: 5px;
+    font-family: 'Mosk300';
+    font-size: 25px;
+    margin-top: 10px;
+    color: #3c3c3c; }
+
+.one .gris {
+  width: 100%;
+  height: 320px;
+  background-color: #ECECEC;
+  border-radius: 4px; }
+  .one .gris p {
+    margin: -5px 0 0 0;
+    font-size: 23px;
+    color: #3c3c3c; }
+  .one .gris h6 {
+    margin: 0 0 0 50px;
+    font-size: 28px;
+    font-family: 'Mosk300';
+    padding-top: 25px;
+    color: #3c3c3c; }
+.one img {
+  margin-top: -50%;
+  width: 100%;
+  height: 300px;
+  color: rgba(255, 255, 255, 0.7); }
+.one .precio {
+  text-align: center;
+  border-bottom: 2px solid #72777c; }
+  .one .precio p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-right: 8px;
+    color: #e02b20; }
+  .one .precio h2 {
+    font-size: 28px;
+    display: inline-block;
+    color: #e02b20; }
+
+.two {
+  min-height: 500px;
+  margin-top: 30px; }
+  .two .container2 {
+    width: 100%;
+    border-bottom: 2px solid #72777c; }
+  .two h5 {
+    color: #3c3c3c;
+    font-family: 'Mosk300';
+    font-size: 32px;
+    line-height: 1.7; }
+  .two .row img {
+    width: 100%;
+    height: 120px; }
+  .two .row h1 {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Mosk300';
+    color: #3c3c3c; }
+  .two .mover {
+    margin-top: 22px;
+    margin-bottom: 30px; }
+
+.three {
+  margin-top: 30px;
+  min-height: 500px;
+  margin-bottom: 75px;
+  color: #3c3c3c; }
+  .three h4 {
+    font-size: 34px;
+    line-height: 1.6;
+    font-family: 'Mosk300'; }
+  .three .flecha {
+    width: 130%; }
+    .three .flecha img {
+      display: inline-block;
+      width: 100%;
+      height: 750px; }
+  .three .primero {
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 150px; }
+    .three .primero p {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+    .three .primero h4 {
+      font-size: 23px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto'; }
+    .three .primero h5 {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+  .three .segundo {
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 130px; }
+    .three .segundo p {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+    .three .segundo h4 {
+      font-size: 23px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto'; }
+    .three .segundo h5 {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+      .three .segundo h5 a {
+        color: #e02b20; }
+  .three .tercero {
+    height: 320px;
+    margin-top: 20px; }
+    .three .tercero .carousel-indicators .active {
+      width: 40px;
+      height: 7px;
+      margin: 0;
+      background-color: #3DBAC8; }
+    .three .tercero .carousel-indicators {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      z-index: 15;
+      padding-left: 0;
+      margin-left: -30%;
+      text-align: center;
+      list-style: none; }
+    .three .tercero .carousel-indicators li {
+      display: inline-block;
+      width: 40px;
+      height: 6px;
+      margin: 1px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: #72777c;
+      border-radius: 10px; }
+    .three .tercero .item {
+      height: 260px; }
+      .three .tercero .item .caru-img {
+        height: 100%;
+        width: 100%; }
+        .three .tercero .item .caru-img img {
+          width: 90%;
+          height: 90%; }
+  .three .cuarto {
+    vertical-align: super;
+    display: inline-block;
+    width: 100%;
+    height: 150px; }
+    .three .cuarto p {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+    .three .cuarto h4 {
+      font-size: 21px;
+      display: inline-block;
+      margin: 5px 0 5px 0;
+      font-family: 'Roboto'; }
+    .three .cuarto h5 {
+      font-size: 17px;
+      display: inline-block;
+      margin: 0;
+      font-family: 'Mosk300'; }
+
+#formu {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  font-family: 'Mosk300';
+  background-color: #e02b20;
+  font-size: 24px;
+  text-align: center;
+  border: 0;
+  color: white; }
+
+.displaynone {
+  display: none; }
+
+@media screen and (max-width: 380px) {
+  .three .segundo {
+    height: 150px; }
+  .three .tercero .carousel-indicators {
+    width: 100%;
+    left: 40%;
+    bottom: -30px; }
+  .three .tercero .item {
+    height: 240px; } }
+
+/*# sourceMappingURL=style.css.map */
